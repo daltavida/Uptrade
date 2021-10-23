@@ -128,7 +128,3 @@ def get_data():
   # Pickle data and save to excel
   skin_df.to_pickle("pickle/skin_data.pkl")
   skin_df.to_excel("data/skin_data.xlsx", sheet_name='Skins')
-
-
-if __name__ == 'main':
-  get_data()
